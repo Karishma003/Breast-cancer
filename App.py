@@ -82,8 +82,4 @@ if st.sidebar.button("Train Model"):
         st.write(f"AUC-ROC Score: {roc_auc}")
 
         # Display best hyperparameters
-        st.write("### Best Hyperparameters")
-        st.write(best_rf.get_params())
 
-# Footer
-st.write("Developed using Streamlit")
